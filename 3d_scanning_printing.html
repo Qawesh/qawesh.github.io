@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Computer Controlled Cutting</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .design-section {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 50px;
+    }
+    .left-section {
+      width: 45%;
+      color: #e0e0e0;
+    }
+    .right-section {
+      width: 45%;
+      max-height: 400px;
+      overflow-y: scroll;
+      padding-right: 10px;
+    }
+    .right-section img {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    .caption {
+      text-align: center;
+      color: #00ffff;
+      margin-bottom: 20px;
+    }
+    h2 {
+      color: #00ffff;
+      border-bottom: 2px solid #00ffff;
+      padding-bottom: 5px;
+    }
+    .right-section::-webkit-scrollbar {
+      width: 15px;
+    }
+    .right-section::-webkit-scrollbar-thumb {
+      background-color: #00ffff;
+      border-radius: 5px;
+    }
+    .right-section::-webkit-scrollbar-track {
+      background-color: #2c2c2c;
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="final_project.html">Final Project</a>
+  </div>
+  <div class="title-banner">
+    3D Printing and Scanning
+  </div>
+  <div class="container">
+    <div class="design-section">
+        <div class="left-section">
+            <h2>3D Printing Design</h2>
+            <p>Our first assignment in class after coming back from winter break was to create 3D printed object that could only be made using additive processes, and to 3D scan an object, I chose to focus on making the 3D printed object first, as I thought it would be the longer task of the two. My choice of design was to make a small mug.</p>
+        </div>
+        <div class="right-section">
+            <img src="./images/print1.PNG" alt="Print step 1">
+            <div class="caption">To begin, I chose to use Onshape for this project, as it is the software I am the most comftorable using. The first step was to sketch a circle which I the extruded to create the body of the mug.</div>
+
+            <img src="./images/print2.PNG" alt="Print step 2">
+            <div class="caption">I then made a hole in the center of the cylinder, to create the area for the liquid. I left a decently sized wall around it to prevent the mug from becoming too hot or cold. I then rounded the edges on the top and bottom, as well as adding a slope on the inside bottom</div>
+
+            <img src="./images/print3.PNG" alt="Print step 3">
+            <div class="caption">The next step was to create a cylinder the would serve as the handle. I then created a smaller and differently oriented cylinder to connect the hadle to the main body, which was then mirrored.</div>
+
+            <img src="./images/print4.PNG" alt="Print step 4">
+            <div class="caption">Following this, the two partd are combined to make them easier to work with, and are then moved into the intended place on the mug body. Its edges are then smoothed to make it easier to hold.</div>
+
+            <img src="./images/print5.PNG" alt="Print step 5">
+            <div class="caption">The parts are then combined for printing, and the model is completed! </div>
+        </div>
+    </div>
+    <div class="design-section">
+      <div class="left-section">
+        <h2>3D scanning</h2>
+        <p>The other part of this project was to 3D scan an object. I used this app I found called Scaniverse which seemed to work well enough, and I scanned some LEGOs I have to test it.</p>
+      </div>
+      <div class="right-section">
+        <img src="./images/scan1.PNG" alt="Scan 1">
+        <div class="caption">I am currently working on building the LEGO Notre Dame Cathedral. I decided to try to scan it first, as it is near where I work. This is a photo of the build as it is currently.</div>
+
+        <img src="./images/scan2.PNG" alt="Scan 2">
+        <div class="caption">After scanning the build from many different angles, this is what the scan showed. Relatively good I think.</div>
+
+        <img src="./images/scan3.PNG" alt="Scan 3">
+        <div class="caption">I decided to try to scan something smaller next, so I went for an old LEGO Audi R18 endurance car. This is a photo of it on a table.</div>
+
+        <img src="./images/scan4.PNG" alt="Scan 4">
+        <div class="caption">After doing the same process of scanning it from various angles, the car came out like this as a scan. It also looks relatively good.</div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    &copy; 2024 Emerson
+  </footer>
+</body>
+</html>
